@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run docs:serve",
+    "startTime": "2023-12-21T04:01:47.111Z",
+    "endTime": "2023-12-21T04:01:49.935Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "docs:serve:development",
+      "target": "serve",
+      "projectName": "docs",
+      "hash": "17131393554263316220",
+      "startTime": "2023-12-21T04:01:47.115Z",
+      "endTime": "2023-12-21T04:01:49.935Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
