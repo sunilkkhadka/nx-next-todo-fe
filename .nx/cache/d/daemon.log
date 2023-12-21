@@ -4336,3 +4336,4 @@ Error: Could not find ".modules.yaml" at "/Users/readytowork/Desktop/office/ant_
 [NX Daemon Server] - 2023-12-21T13:51:40.360Z - [REQUEST]: README.md
 [NX Daemon Server] - 2023-12-21T13:51:40.360Z - [REQUEST]: 
 [NX Daemon Server] - 2023-12-21T13:51:40.390Z - Time taken for 'hash changed files from watcher' 0.35204124450683594ms
+[NX Daemon Server] - 2023-12-21T13:56:35.984Z - [WATCHER]: Processing file changes in outputs
