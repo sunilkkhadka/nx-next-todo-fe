@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: cimg/node:lts-browsers
     steps:
-        - run:
+      - run:
           name: install dependencies
           command: pnpm install --frozen-lockfile
       - run:
