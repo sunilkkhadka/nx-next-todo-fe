@@ -6,12 +6,11 @@ jobs:
       - image: cimg/node:lts-browsers
     steps:
       - run:
-          name: Print a message
-          command: echo "Hello Circle CI!"
+          name: Run build
+          command: pnpm nx run-many -t build
 
 workflows:
   version: 2
-
   ci:
     jobs:
       - main
