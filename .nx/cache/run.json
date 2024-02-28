@@ -1,106 +1,29 @@
 {
   "run": {
-    "command": "nx run-many -t lint test build e2e-ci",
-    "startTime": "2024-02-27T14:27:58.494Z",
-    "endTime": "2024-02-27T14:28:18.700Z",
+    "command": "nx affected:lint --files=apps/owner-e2e/.eslintrc.json,apps/owner-e2e/cypress.config.ts,apps/owner-e2e/project.json,apps/owner-e2e/src/e2e/app.cy.ts,apps/owner-e2e/src/fixtures/example.json,apps/owner-e2e/src/support/app.po.ts,apps/owner-e2e/src/support/commands.ts,apps/owner-e2e/src/support/e2e.ts,apps/owner-e2e/tsconfig.json,apps/owner/.eslintrc.json,apps/owner/app/api/hello/route.ts,apps/owner/app/global.css,apps/owner/app/layout.tsx,apps/owner/app/page.module.css,apps/owner/app/page.tsx,apps/owner/index.d.ts,apps/owner/jest.config.ts,apps/owner/next-env.d.ts,apps/owner/next.config.js,apps/owner/project.json,apps/owner/tsconfig.json,apps/owner/tsconfig.spec.json",
+    "startTime": "2024-02-28T14:39:35.330Z",
+    "endTime": "2024-02-28T14:39:36.109Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "owner:test",
-      "target": "test",
-      "projectName": "owner",
-      "hash": "3481481806102494738",
-      "startTime": "2024-02-27T14:27:58.503Z",
-      "endTime": "2024-02-27T14:27:59.292Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "shared:lint",
-      "target": "lint",
-      "projectName": "shared",
-      "hash": "11898476149443357207",
-      "startTime": "2024-02-27T14:27:58.513Z",
-      "endTime": "2024-02-27T14:27:59.901Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
       "taskId": "owner:lint",
       "target": "lint",
       "projectName": "owner",
-      "hash": "1289331530691884247",
-      "startTime": "2024-02-27T14:27:58.521Z",
-      "endTime": "2024-02-27T14:27:59.968Z",
+      "hash": "17433207259526194107",
+      "startTime": "2024-02-28T14:39:35.337Z",
+      "endTime": "2024-02-28T14:39:35.351Z",
       "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "docs:test",
-      "target": "test",
-      "projectName": "docs",
-      "hash": "3078160725466029564",
-      "startTime": "2024-02-27T14:27:59.968Z",
-      "endTime": "2024-02-27T14:28:00.630Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "docs:lint",
-      "target": "lint",
-      "projectName": "docs",
-      "hash": "4567848579721139730",
-      "startTime": "2024-02-27T14:27:59.901Z",
-      "endTime": "2024-02-27T14:28:01.154Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
+      "cacheStatus": "local-cache-hit",
+      "status": 0
     },
     {
       "taskId": "owner-e2e:lint",
       "target": "lint",
       "projectName": "owner-e2e",
-      "hash": "16447187344062154600",
-      "startTime": "2024-02-27T14:28:01.154Z",
-      "endTime": "2024-02-27T14:28:01.939Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "docs-e2e:lint",
-      "target": "lint",
-      "projectName": "docs-e2e",
-      "hash": "4696236440620461005",
-      "startTime": "2024-02-27T14:28:01.940Z",
-      "endTime": "2024-02-27T14:28:02.826Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "owner:build:production",
-      "target": "build",
-      "projectName": "owner",
-      "hash": "7503836958988806523",
-      "startTime": "2024-02-27T14:27:59.293Z",
-      "endTime": "2024-02-27T14:28:10.385Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "docs:build:production",
-      "target": "build",
-      "projectName": "docs",
-      "hash": "6532685702334773604",
-      "startTime": "2024-02-27T14:28:00.631Z",
-      "endTime": "2024-02-27T14:28:18.699Z",
+      "hash": "1999350097006870967",
+      "startTime": "2024-02-28T14:39:35.339Z",
+      "endTime": "2024-02-28T14:39:36.108Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
