@@ -20,7 +20,7 @@ jobs:
             - ~/.cache/Cypress # needed for the Cypress binary
       - run:
           name: Run build
-          command: pnpm nx run-many -t build
+          command: pnpm nx affected -t build
 
 workflows:
   version: 2

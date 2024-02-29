@@ -1,28 +1,0 @@
-  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
-
- [37m[1m [22m[39m Creating an optimized production build ...
- [32m[1m✓[22m[39m Compiled successfully
- [37m[1m [22m[39m Skipping linting
- [37m[1m [22m[39m Checking validity of types ...
- [37m[1m [22m[39m Collecting page data ...
- [37m[1m [22m[39m Generating static pages (0/5) ...
- [37m[1m [22m[39m Generating static pages (1/5) 
- [37m[1m [22m[39m Generating static pages (2/5) 
- [37m[1m [22m[39m Generating static pages (3/5) 
- [32m[1m✓[22m[39m Generating static pages (5/5) 
- [37m[1m [22m[39m Finalizing page optimization ...
- [37m[1m [22m[39m Collecting build traces ...
-
-[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
-┌ ○ /                                    202 B          [32m82.1 kB[39m
-├ ○ /_not-found                          875 B          [32m82.7 kB[39m
-└ ○ /api/hello                           0 B                [32m0 B[39m
-+ First Load JS shared by all            [32m81.9 kB[39m
-  ├ chunks/700-e36436d46526c78f.js       26.7 kB
-  ├ chunks/e6b96633-f013377253f88032.js  53.3 kB
-  ├ chunks/main-app-006e25fe69b9a890.js  219 B
-  └ chunks/webpack-8906d6f78f9ad50c.js   1.68 kB
-
-
-○  (Static)  prerendered as static content
-
