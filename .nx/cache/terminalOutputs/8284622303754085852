@@ -1,0 +1,636 @@
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [33m[1m⚠[22m[39m Compiled with warnings
+
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+A Node.js API is used (process.nextTick at line: 47) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.version at line: 2) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.version at line: 2) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.version at line: 2) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.version at line: 2) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.nextTick at line: 18) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.nextTick at line: 20) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.nextTick at line: 24) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.nextTick at line: 28) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+A Node.js API is used (process.nextTick at line: 37) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/process-nextick-args@2.0.1/node_modules/process-nextick-args/index.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_duplex.js
+A Node.js API is used (process.nextTick at line: 57) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_duplex.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 321) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 338) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.stdout at line: 377) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.stderr at line: 377) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 379) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 450) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 598) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.nextTick at line: 721) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.nextTick at line: 110) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.nextTick at line: 124) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.nextTick at line: 175) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.nextTick at line: 199) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.nextTick at line: 276) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@1.0.34/node_modules/readable-stream/readable.js
+../../node_modules/.pnpm/html-tokenize@2.0.1/node_modules/html-tokenize/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.stdout at line: 479) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_readable.js
+A Node.js API is used (process.stderr at line: 479) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_readable.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (process.version at line: 46) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_writable.js
+A Node.js API is used (setImmediate at line: 46) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/lib/_stream_writable.js
+../../node_modules/.pnpm/readable-stream@2.3.8/node_modules/readable-stream/readable-browser.js
+../../node_modules/.pnpm/duplexer2@0.1.4/node_modules/duplexer2/index.js
+../../node_modules/.pnpm/multipipe@1.0.2/node_modules/multipipe/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.production.min.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+../../node_modules/.pnpm/rc-util@5.38.2_react-dom@18.2.0_react@18.2.0/node_modules/rc-util/es/React/render.js
+../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/notification/index.js
+__barrel_optimize__?names=ConfigProvider,Modal,message,notification,theme!=!../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/AntdProvider.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/createInstance.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.production.min.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+../../node_modules/.pnpm/rc-util@5.38.2_react-dom@18.2.0_react@18.2.0/node_modules/rc-util/es/React/render.js
+../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/notification/index.js
+__barrel_optimize__?names=ConfigProvider,Modal,message,notification,theme!=!../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/AntdProvider.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/createInstance.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 120) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.production.min.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+../../node_modules/.pnpm/rc-util@5.38.2_react-dom@18.2.0_react@18.2.0/node_modules/rc-util/es/React/render.js
+../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/notification/index.js
+__barrel_optimize__?names=ConfigProvider,Modal,message,notification,theme!=!../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/AntdProvider.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/createInstance.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 121) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.production.min.js
+../../node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.production.min.js
+../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+../../node_modules/.pnpm/rc-util@5.38.2_react-dom@18.2.0_react@18.2.0/node_modules/rc-util/es/React/render.js
+../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/notification/index.js
+__barrel_optimize__?names=ConfigProvider,Modal,message,notification,theme!=!../../node_modules/.pnpm/antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd/es/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/AntdProvider.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/factories/createThemeProvider/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/createInstance.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+../../node_modules/.pnpm/through@2.3.8/node_modules/through/index.js
+A Node.js API is used (process.nextTick at line: 49) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+../../node_modules/.pnpm/through@2.3.8/node_modules/through/index.js
+../../node_modules/.pnpm/@emotion+server@11.11.0_@emotion+css@11.11.2/node_modules/@emotion/server/create-instance/dist/emotion-server-create-instance.browser.esm.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/extractStaticStyle.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/functions/index.js
+../../node_modules/.pnpm/antd-style@3.6.1_@types+react@18.2.33_antd@5.12.4_react-dom@18.2.0_react@18.2.0/node_modules/antd-style/es/index.js
+../../shared/src/utils/AntdRegistry.tsx
+../../shared/src/utils/provider.tsx
+../../shared/src/utils/index.ts
+../../shared/src/index.ts
+
+ [37m[1m [22m[39m Skipping linting
+ [37m[1m [22m[39m Checking validity of types ...
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/7) ...
+ [37m[1m [22m[39m Generating static pages (1/7) 
+ [37m[1m [22m[39m Generating static pages (3/7) 
+ [37m[1m [22m[39m Generating static pages (5/7) 
+ [32m[1m✓[22m[39m Generating static pages (7/7) 
+ [37m[1m [22m[39m Finalizing page optimization ...
+ [37m[1m [22m[39m Collecting build traces ...
+
+[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+┌ ○ /                                    144 B            [32m82 kB[39m
+├ ○ /_not-found                          0 B                [32m0 B[39m
+├ ● /[locale]                            3.46 kB         [31m[1m211 kB[22m[39m
+├   ├ /en
+├   └ /ja
+├ λ /[locale]/[...rest]                  145 B            [32m82 kB[39m
+└ ○ /api/hello                           0 B                [32m0 B[39m
++ First Load JS shared by all            [32m81.8 kB[39m
+  ├ chunks/700-9eec69dc371fc296.js       26.6 kB
+  ├ chunks/e6b96633-0d88c370dc016d0e.js  53.3 kB
+  ├ chunks/main-app-006e25fe69b9a890.js  219 B
+  └ chunks/webpack-00631d7b13eeffb3.js   1.74 kB
+
+
+ƒ Middleware                             [33m143 kB[39m
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses [36mgetStaticProps[39m)
+λ  (Dynamic)  server-rendered on demand using Node.js
+

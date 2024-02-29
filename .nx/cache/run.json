@@ -1,29 +1,29 @@
 {
   "run": {
-    "command": "nx affected:lint --files=apps/owner-e2e/.eslintrc.json,apps/owner-e2e/cypress.config.ts,apps/owner-e2e/project.json,apps/owner-e2e/src/e2e/app.cy.ts,apps/owner-e2e/src/fixtures/example.json,apps/owner-e2e/src/support/app.po.ts,apps/owner-e2e/src/support/commands.ts,apps/owner-e2e/src/support/e2e.ts,apps/owner-e2e/tsconfig.json,apps/owner/.eslintrc.json,apps/owner/app/api/hello/route.ts,apps/owner/app/global.css,apps/owner/app/layout.tsx,apps/owner/app/page.module.css,apps/owner/app/page.tsx,apps/owner/index.d.ts,apps/owner/jest.config.ts,apps/owner/next-env.d.ts,apps/owner/next.config.js,apps/owner/project.json,apps/owner/tsconfig.json,apps/owner/tsconfig.spec.json",
-    "startTime": "2024-02-28T14:39:35.330Z",
-    "endTime": "2024-02-28T14:39:36.109Z",
+    "command": "nx run-many -t build",
+    "startTime": "2024-02-28T15:30:19.287Z",
+    "endTime": "2024-02-28T15:30:41.384Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "owner:lint",
-      "target": "lint",
+      "taskId": "owner:build:production",
+      "target": "build",
       "projectName": "owner",
-      "hash": "17433207259526194107",
-      "startTime": "2024-02-28T14:39:35.337Z",
-      "endTime": "2024-02-28T14:39:35.351Z",
+      "hash": "3599141249531478779",
+      "startTime": "2024-02-28T15:30:19.292Z",
+      "endTime": "2024-02-28T15:30:31.355Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     },
     {
-      "taskId": "owner-e2e:lint",
-      "target": "lint",
-      "projectName": "owner-e2e",
-      "hash": "1999350097006870967",
-      "startTime": "2024-02-28T14:39:35.339Z",
-      "endTime": "2024-02-28T14:39:36.108Z",
+      "taskId": "docs:build:production",
+      "target": "build",
+      "projectName": "docs",
+      "hash": "8284622303754085852",
+      "startTime": "2024-02-28T15:30:19.292Z",
+      "endTime": "2024-02-28T15:30:41.384Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
