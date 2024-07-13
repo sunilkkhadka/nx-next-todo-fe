@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /// <reference types="cypress" />
 
 // ***********************************************
@@ -9,7 +10,7 @@
 // commands please read more here:
 // https://on.cypress.io/custom-commands
 // ***********************************************
-
+// eslint-disable-next-line no-unused-vars
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Cypress {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -20,6 +21,7 @@ declare namespace Cypress {
 
 // -- This is a parent command --
 Cypress.Commands.add('login', (email, password) => {
+  // eslint-disable-next-line no-console
   console.log('Custom command example: Login', email, password);
 });
 //

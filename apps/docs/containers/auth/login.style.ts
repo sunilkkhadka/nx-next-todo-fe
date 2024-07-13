@@ -1,0 +1,36 @@
+import styled from 'styled-components';
+import { themes } from '../../constants';
+
+export const LoginWrapperSection = styled.div`
+  height: 100vh;
+  width: 100%;
+  background: ${themes.colors.primary.light};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+export const LoginFormContainer = styled.div`
+  background: ${themes.colors.primary.light};
+  width: 360px;
+  background-color: #ffff;
+  height: auto;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 2px 0px,
+    rgba(0, 0, 0, 0.02) 0px 1px 6px -1px, rgba(0, 0, 0, 0.02) 0px 2px 4px 0px;
+  margin: 0px auto;
+  padding: 2em;
+`;
+export const LoginTopContent = styled.div`
+  h1 {
+    font-size: 30px !important;
+    margin: 15px 0 !important;
+  }
+  .slug {
+    text-align: center;
+  }
+  margin-bottom: 2em;
+`;
+export const LoginFormContent = styled.div``;

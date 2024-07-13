@@ -1,0 +1,11 @@
+
+Linting "shared"...
+[0m[0m
+[0m[4m/Users/readytowork/Desktop/office/ant_next_skeleton/shared/src/components/button/button.tsx[24m[0m
+[0m  [2m10:9[22m  [31merror[39m    't' is assigned a value but never used  [2mno-unused-vars[22m[0m
+[0m  [2m10:9[22m  [33mwarning[39m  't' is assigned a value but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 2 problems (1 error, 1 warning)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+✖ 2 problems (1 error, 1 warning)
+

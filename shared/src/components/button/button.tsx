@@ -1,23 +1,12 @@
 'use client';
-import { globalThemeStore } from '../../utils/store-config';
-import styled from 'styled-components';
-import { useTranslations } from 'next-intl';
+import { Button as AntdButton, ButtonProps } from 'antd';
 /* eslint-disable-next-line */
-export interface ButtonProps {}
+export interface Props extends ButtonProps {
+  children: React.ReactNode;
+}
 
-const StyledButton = styled.button``;
-
-const Button = (props: ButtonProps) => {
-  const { setColorScheme, colorScheme } = globalThemeStore((state) => state);
-  const t = useTranslations('Index');
-  return (
-    <StyledButton
-      onClick={() => setColorScheme(colorScheme === 'dark' ? 'light' : 'dark')}
-      {...props}
-    >
-      {t('change theme')}
-    </StyledButton>
-  );
+const Button = ({ children, ...props }: ButtonProps) => {
+  return <AntdButton {...props}>{children}</AntdButton>;
 };
 Button.DisplayName = 'Button';
 export { Button };

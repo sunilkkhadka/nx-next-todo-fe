@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx affected:lint --files=apps/docs/app/[locale]/layout.tsx,apps/docs/app/[locale]/page.tsx,apps/docs/constants/index.ts,apps/docs/constants/themes.ts,apps/docs/containers/auth/login.style.ts,apps/docs/containers/auth/login.tsx,apps/docs/containers/index.ts,apps/docs/tsconfig.json,shared/src/components/button/button.tsx,shared/src/components/index.tsx,shared/src/components/input/input.spec.tsx,shared/src/components/input/input.tsx,shared/src/components/theme-switcher/theme-switcher.tsx,shared/src/utils/AntdRegistry.tsx",
+    "startTime": "2024-07-13T16:10:38.643Z",
+    "endTime": "2024-07-13T16:10:40.338Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "docs-e2e:lint",
+      "target": "lint",
+      "projectName": "docs-e2e",
+      "hash": "14887738596300849422",
+      "startTime": "2024-07-13T16:10:38.681Z",
+      "endTime": "2024-07-13T16:10:39.795Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "shared:lint",
+      "target": "lint",
+      "projectName": "shared",
+      "hash": "7925274950083500012",
+      "startTime": "2024-07-13T16:10:38.656Z",
+      "endTime": "2024-07-13T16:10:40.148Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "docs:lint",
+      "target": "lint",
+      "projectName": "docs",
+      "hash": "8938054759564058220",
+      "startTime": "2024-07-13T16:10:38.665Z",
+      "endTime": "2024-07-13T16:10:40.338Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

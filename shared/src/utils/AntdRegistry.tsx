@@ -1,14 +1,13 @@
 'use client';
 
-import React from 'react';
 import { createCache, extractStyle, StyleProvider } from '@ant-design/cssinjs';
 import type Entity from '@ant-design/cssinjs/es/Cache';
-import { useServerInsertedHTML } from 'next/navigation';
 import { ConfigProvider, Layout } from 'antd';
 import { ThemeProvider } from 'antd-style';
-import { Button } from '../components/button/button';
-import { globalThemeStore } from './store-config';
+import { useServerInsertedHTML } from 'next/navigation';
+import React from 'react';
 import { GlobalStyle } from './global.style';
+import { globalThemeStore } from './store-config';
 
 const AntRegistry = ({ children }: React.PropsWithChildren) => {
   const cache = React.useMemo<Entity>(() => createCache(), []);

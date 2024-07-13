@@ -1,0 +1,18 @@
+
+Linting "shared"...
+[0m[0m
+[0m[4m/Users/readytowork/Desktop/office/ant_next_skeleton/shared/src/components/button/button.tsx[24m[0m
+[0m  [2m10:9[22m  [31merror[39m    't' is assigned a value but never used  [2mno-unused-vars[22m[0m
+[0m  [2m10:9[22m  [33mwarning[39m  't' is assigned a value but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4m/Users/readytowork/Desktop/office/ant_next_skeleton/shared/src/components/input/input.tsx[24m[0m
+[0m  [2m20:11[22m  [33mwarning[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/readytowork/Desktop/office/ant_next_skeleton/shared/src/components/theme-switcher/theme-switcher.tsx[24m[0m
+[0m  [2m12:9[22m  [31merror[39m    't' is assigned a value but never used  [2mno-unused-vars[22m[0m
+[0m  [2m12:9[22m  [33mwarning[39m  't' is assigned a value but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 5 problems (2 errors, 3 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+✖ 5 problems (2 errors, 3 warnings)
+

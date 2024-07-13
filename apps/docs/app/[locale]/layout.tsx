@@ -1,9 +1,9 @@
-import { Inter } from 'next/font/google';
-import { notFound } from 'next/navigation';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { ReactNode } from 'react';
 import { Provider, locales } from '@skeleton/shared';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { Inter } from 'next/font/google';
+import { notFound } from 'next/navigation';
+import { ReactNode } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
