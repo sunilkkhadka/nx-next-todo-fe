@@ -1,14 +1,9 @@
 'use client';
-import {
-  GithubOutlined,
-  GoogleOutlined,
-  LockOutlined,
-  MailOutlined
-} from '@ant-design/icons';
+import { GoogleOutlined, LockOutlined, MailOutlined } from '@ant-design/icons';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button, Input } from '@skeleton/shared';
 import { Divider, Flex, Typography } from 'antd';
-import { useTranslations } from 'next-intl';
+import { signIn } from 'next-auth/react';
 import Image from 'next/image';
 import { Controller, useForm } from 'react-hook-form';
 import z from 'zod';
@@ -28,12 +23,18 @@ const schema = z
     password: z.string().min(4, { message: 'Please enter your password' })
   })
   .required();
-export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
-  const t = useTranslations('Login');
-  const { handleSubmit, control } = useForm({
+type InputType = z.infer<typeof schema>;
+export const Login = () => {
+  const { handleSubmit, control } = useForm<InputType>({
     resolver: zodResolver(schema)
   });
-
+  const onSubmit = (data: InputType) => {
+    signIn('credentials', {
+      email: data.email,
+      password: data.password,
+      redirectTo: '/'
+    });
+  };
   return (
     <LoginWrapperSection>
       <LoginFormContainer>
@@ -42,9 +43,9 @@ export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
             <div style={{ position: 'relative' }}>
               <Image src="/logo.svg" alt="logo" width={150} height={40} />
             </div>
-            <Typography.Title level={1}>{t('login')}</Typography.Title>
+            <Typography.Title level={1}>login</Typography.Title>
             <Typography.Text type={'secondary'} className={'slug'}>
-              {t('Welcome_back')}
+              Welcome back
             </Typography.Text>
           </Flex>
         </LoginTopContent>
@@ -60,7 +61,7 @@ export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
               control={control}
               render={({ field, formState: { errors } }) => (
                 <Input
-                  label={t('Email')}
+                  label={'Email'}
                   placeholder={'Email'}
                   size={'middle'}
                   id="email"
@@ -75,7 +76,7 @@ export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
               control={control}
               render={({ field, formState: { errors } }) => (
                 <Input
-                  label={t('Password')}
+                  label={'Password'}
                   placeholder={'Password'}
                   size={'middle'}
                   type="password"
@@ -88,20 +89,25 @@ export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
             />
             <Flex>
               <Typography.Text type={'secondary'} className={'forgot_password'}>
-                {t('Forgot password')}
+                {'Forgot password'}
               </Typography.Text>{' '}
             </Flex>
             <Button type="primary" htmlType="submit">
-              {t('login')}
+              {'login'}
             </Button>
           </Flex>
         </LoginFormContent>
         <Divider>Or</Divider>
-        <Flex gap={8} className={'social_btns'}>
-          <Button icon={<GoogleOutlined />} type={'primary'}>
-            {t('Sign in with Google')}
+        <Flex gap={8} className={'social_btns'} justify={'center'}>
+          <Button
+            icon={<GoogleOutlined />}
+            type={'primary'}
+            onClick={() => signIn('google', { redirectTo: '/' })}
+            block
+          >
+            {'Sign in with Google'}
           </Button>
-          <Button icon={<GithubOutlined />}>{t('Sign in with Github')}</Button>
+          {/* <Button icon={<GithubOutlined />}>{'Sign in with Github'}</Button> */}
         </Flex>
       </LoginFormContainer>
     </LoginWrapperSection>

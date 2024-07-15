@@ -1,5 +1,3 @@
-import { Login } from '../../containers';
-
 export default function IndexPage() {
-  return <Login />;
+  return <h1>welcome</h1>;
 }

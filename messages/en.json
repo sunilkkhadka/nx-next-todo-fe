@@ -14,7 +14,11 @@
     "Password": "Password",
     "Forgot password": "Forgot password?",
     "login": "login",
-    "Your password": "Your password"
+    "Your password": "Your password",
+    "Sign in with Google": "Sign in with Google",
+    "Sign in with Twitter": "Sign in with Twitter",
+    "Sign in with Github": "Sign in with Github",
+    "Welcome_back": "Welcome back to RTW next skeleton! Please enter your details below to sign in."
   },
   "NotFoundPage": {
     "title": "Page not found",

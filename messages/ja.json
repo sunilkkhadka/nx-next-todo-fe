@@ -14,7 +14,11 @@
     "Password": "パスワード",
     "Forgot password": "パスワードをお忘れですか?",
     "login": "ログイン",
-    "Your password": "あなたのパスワード"
+    "Your password": "あなたのパスワード",
+    "Sign in with Google": "Google でログイン",
+    "Sign in with Twitter": "Twitter でログイン",
+    "Sign in with Github": "Github でログイン",
+    "Welcome_back": "おかえりなさい、RTW next skeleton へ! 下の詳細を入力してログインしてください。"
   },
   "NotFoundPage": {
     "title": "ページが見つかりません",

@@ -1,6 +1,0 @@
-
-Linting "docs"...
-Pages directory cannot be found at apps/docs/pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.
-
-✔ All files pass linting
-

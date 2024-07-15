@@ -1,43 +1,65 @@
 {
   "run": {
-    "command": "nx affected:lint --files=apps/docs/app/[locale]/layout.tsx,apps/docs/app/[locale]/page.tsx,apps/docs/constants/index.ts,apps/docs/constants/themes.ts,apps/docs/containers/auth/login.style.ts,apps/docs/containers/auth/login.tsx,apps/docs/containers/index.ts,apps/docs/tsconfig.json,shared/src/components/button/button.tsx,shared/src/components/index.tsx,shared/src/components/input/input.spec.tsx,shared/src/components/input/input.tsx,shared/src/components/theme-switcher/theme-switcher.tsx,shared/src/utils/AntdRegistry.tsx",
-    "startTime": "2024-07-13T16:10:38.643Z",
-    "endTime": "2024-07-13T16:10:40.338Z",
+    "command": "nx affected:lint --files=apps/docs/app/[locale]/login/page.tsx,apps/docs/app/[locale]/page.tsx,apps/docs/containers/auth/login.style.ts,apps/docs/containers/auth/login.tsx,apps/owner/app/api/auth/[...nextauth]/route.ts,apps/owner/app/login/page.tsx,apps/owner/app/page.tsx,apps/owner/auth.ts,apps/owner/containers/home-containers/home-containers.tsx,apps/owner/containers/index.ts,apps/owner/containers/login-containers/login.style.ts,apps/owner/containers/login-containers/login.tsx,apps/owner/containers/login.tsx,apps/owner/containers/signout-button.tsx,apps/owner/middleware.ts,apps/owner/tsconfig.json,shared/src/firebase.ts,shared/src/index.ts",
+    "startTime": "2024-07-15T19:52:20.391Z",
+    "endTime": "2024-07-15T19:52:21.902Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "docs-e2e:lint",
-      "target": "lint",
-      "projectName": "docs-e2e",
-      "hash": "14887738596300849422",
-      "startTime": "2024-07-13T16:10:38.681Z",
-      "endTime": "2024-07-13T16:10:39.795Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
       "taskId": "shared:lint",
       "target": "lint",
       "projectName": "shared",
-      "hash": "7925274950083500012",
-      "startTime": "2024-07-13T16:10:38.656Z",
-      "endTime": "2024-07-13T16:10:40.148Z",
+      "hash": "15769969069935802034",
+      "startTime": "2024-07-15T19:52:20.404Z",
+      "endTime": "2024-07-15T19:52:20.417Z",
       "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "owner:lint",
+      "target": "lint",
+      "projectName": "owner",
+      "hash": "15759797833343084155",
+      "startTime": "2024-07-15T19:52:20.421Z",
+      "endTime": "2024-07-15T19:52:20.425Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "owner-e2e:lint",
+      "target": "lint",
+      "projectName": "owner-e2e",
+      "hash": "8700114274401053924",
+      "startTime": "2024-07-15T19:52:20.442Z",
+      "endTime": "2024-07-15T19:52:20.443Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "docs-e2e:lint",
+      "target": "lint",
+      "projectName": "docs-e2e",
+      "hash": "16096880558489945100",
+      "startTime": "2024-07-15T19:52:20.442Z",
+      "endTime": "2024-07-15T19:52:20.443Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
     },
     {
       "taskId": "docs:lint",
       "target": "lint",
       "projectName": "docs",
-      "hash": "8938054759564058220",
-      "startTime": "2024-07-13T16:10:38.665Z",
-      "endTime": "2024-07-13T16:10:40.338Z",
+      "hash": "10188586492553414097",
+      "startTime": "2024-07-15T19:52:20.412Z",
+      "endTime": "2024-07-15T19:52:21.902Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }
