@@ -1,9 +1,12 @@
 {
   "Index": {
+    "Hello": "Hello",
     "title": "Hello world!",
     "coming soon": "coming soon",
     "hello world": "hello world",
-    "change theme": "change theme"
+    "change theme": "change theme",
+    "You're logged in": "You're logged in",
+    "logout": "logout"
   },
   "Login": {
     "Welcome back, Login with": "Welcome back, Login with",
@@ -28,8 +31,13 @@
     "title": "Something went wrong!",
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
   },
-  "LocaleSwitcher": {
+  "LocaleSwitcher-d": {
     "label": "Change language",
     "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
+  },
+  "LocaleSwitcher": {
+    "ja": "Japanese",
+    "en": "English",
+    "label": "Language"
   }
 }

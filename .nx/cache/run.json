@@ -1,65 +1,21 @@
 {
   "run": {
-    "command": "nx affected:lint --files=apps/docs/app/[locale]/login/page.tsx,apps/docs/app/[locale]/page.tsx,apps/docs/containers/auth/login.style.ts,apps/docs/containers/auth/login.tsx,apps/owner/app/api/auth/[...nextauth]/route.ts,apps/owner/app/login/page.tsx,apps/owner/app/page.tsx,apps/owner/auth.ts,apps/owner/containers/home-containers/home-containers.tsx,apps/owner/containers/index.ts,apps/owner/containers/login-containers/login.style.ts,apps/owner/containers/login-containers/login.tsx,apps/owner/containers/login.tsx,apps/owner/containers/signout-button.tsx,apps/owner/middleware.ts,apps/owner/tsconfig.json,shared/src/firebase.ts,shared/src/index.ts",
-    "startTime": "2024-07-15T19:52:20.391Z",
-    "endTime": "2024-07-15T19:52:21.902Z",
+    "command": "nx run base-app:dev",
+    "startTime": "2024-07-16T15:06:23.523Z",
+    "endTime": "2024-07-16T15:06:23.587Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "shared:lint",
-      "target": "lint",
-      "projectName": "shared",
-      "hash": "15769969069935802034",
-      "startTime": "2024-07-15T19:52:20.404Z",
-      "endTime": "2024-07-15T19:52:20.417Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "owner:lint",
-      "target": "lint",
-      "projectName": "owner",
-      "hash": "15759797833343084155",
-      "startTime": "2024-07-15T19:52:20.421Z",
-      "endTime": "2024-07-15T19:52:20.425Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "owner-e2e:lint",
-      "target": "lint",
-      "projectName": "owner-e2e",
-      "hash": "8700114274401053924",
-      "startTime": "2024-07-15T19:52:20.442Z",
-      "endTime": "2024-07-15T19:52:20.443Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "docs-e2e:lint",
-      "target": "lint",
-      "projectName": "docs-e2e",
-      "hash": "16096880558489945100",
-      "startTime": "2024-07-15T19:52:20.442Z",
-      "endTime": "2024-07-15T19:52:20.443Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "docs:lint",
-      "target": "lint",
-      "projectName": "docs",
-      "hash": "10188586492553414097",
-      "startTime": "2024-07-15T19:52:20.412Z",
-      "endTime": "2024-07-15T19:52:21.902Z",
+      "taskId": "base-app:dev",
+      "target": "dev",
+      "projectName": "base-app",
+      "hash": "2294328415155170380",
+      "startTime": "2024-07-16T15:06:23.528Z",
+      "endTime": "2024-07-16T15:06:23.587Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }

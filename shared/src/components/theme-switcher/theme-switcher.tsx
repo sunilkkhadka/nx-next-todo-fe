@@ -2,7 +2,7 @@
 import { Button as AntdButton, ButtonProps } from 'antd';
 import { globalThemeStore } from '../../utils/store-config';
 /* eslint-disable-next-line */
-export interface Props extends ButtonProps {
+interface Props extends ButtonProps {
   children: React.ReactNode;
 }
 

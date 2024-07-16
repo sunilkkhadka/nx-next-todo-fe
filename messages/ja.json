@@ -1,9 +1,12 @@
 {
   "Index": {
+    "Hello": "こんにちは",
     "title": "こんにちは世界",
     "coming soon": "近日公開",
     "hello world": "こんにちは世界",
-    "change theme": "テーマを変更する"
+    "change theme": "テーマを変更する",
+    "You're logged in": "ログイン済みです",
+    "logout": "ログアウト"
   },
   "Login": {
     "Welcome back, Login with": "おかえりなさい、ログインしてください",
@@ -28,8 +31,13 @@
     "title": "何か問題が発生しました!",
     "description": "<p>残念ながらエラーが発生しました</p><p>試してみることができます <retry>ページをリロードする</retry> あなたは訪問していました.</p>"
   },
-  "LocaleSwitcher": {
+  "LocaleSwitcher-d": {
     "label": "言語を変えてください",
     "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
+  },
+  "LocaleSwitcher": {
+    "ja": "Japanese",
+    "en": "English",
+    "label": "言語を変えてください"
   }
 }
