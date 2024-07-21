@@ -4,7 +4,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import NextAuth from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
 import Google from 'next-auth/providers/google';
-
+import Line from 'next-auth/providers/line';
 export const config = {
   providers: [
     Credentials({
@@ -33,7 +33,8 @@ export const config = {
           response_type: 'code'
         }
       }
-    })
+    }),
+    Line
   ],
   pages: {
     signIn: '/login'

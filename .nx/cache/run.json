@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx run base-app:dev",
-    "startTime": "2024-07-16T15:06:23.523Z",
-    "endTime": "2024-07-16T15:06:23.587Z",
+    "command": "nx run base-app:dev --ssl=true",
+    "startTime": "2024-07-21T06:35:31.964Z",
+    "endTime": "2024-07-21T06:35:32.025Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "base-app:dev",
       "target": "dev",
       "projectName": "base-app",
-      "hash": "2294328415155170380",
-      "startTime": "2024-07-16T15:06:23.528Z",
-      "endTime": "2024-07-16T15:06:23.587Z",
+      "hash": "12985661033667925423",
+      "startTime": "2024-07-21T06:35:31.970Z",
+      "endTime": "2024-07-21T06:35:32.024Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

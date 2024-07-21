@@ -1,5 +1,10 @@
 'use client';
-import { GoogleOutlined, LockOutlined, MailOutlined } from '@ant-design/icons';
+import {
+  GoogleOutlined,
+  LineOutlined,
+  LockOutlined,
+  MailOutlined
+} from '@ant-design/icons';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button, Input } from '@skeleton/shared';
 import { Divider, Flex, Typography } from 'antd';
@@ -109,7 +114,12 @@ export const LoginContainer = () => {
           >
             {t('Sign in with Google')}
           </Button>
-          {/* <Button icon={<GithubOutlined />}>{'Sign in with Github'}</Button> */}
+          <Button
+            icon={<LineOutlined />}
+            onClick={() => signIn('line', { redirectTo: '/' })}
+          >
+            {'Sign in with Line'}
+          </Button>
         </Flex>
       </LoginFormContainer>
     </LoginWrapperSection>
