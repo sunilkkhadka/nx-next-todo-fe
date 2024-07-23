@@ -4,6 +4,7 @@
   "deps": {
     "@ant-design/cssinjs": "^1.18.1",
     "@ant-design/icons": "^5.3.7",
+    "@ant-design/nextjs-registry": "^1.0.0",
     "@hookform/resolvers": "^3.3.2",
     "@swc/helpers": "0.5.12",
     "@tabler/icons-react": "^2.40.0",
@@ -115,124 +116,112 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "data/auth.ts",
-        "hash": "8087429930098927737"
-      },
-      {
-        "file": "package.json",
-        "hash": "13717835238526018581"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "1880664178033616490"
-      },
-      {
-        "file": "data/middleware.ts",
-        "hash": "6895808913642394037"
-      },
-      {
-        "file": ".env.example",
-        "hash": "726632717887864056"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "14001939284477834488"
-      },
-      {
-        "file": "README.md",
-        "hash": "13772225626766054382"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "migrations.json",
         "hash": "12500105397062984145"
       },
       {
-        "file": ".circleci/config.yml",
-        "hash": "10823197861913887916"
-      },
-      {
-        "file": "data/[...nextauth]/route.ts",
-        "hash": "7947786014779338326"
-      },
-      {
-        "file": ".husky/commit-msg",
-        "hash": "8945594172206804484"
-      },
-      {
-        "file": "renovate.json",
-        "hash": "10269157638479777738"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "messages/en.json",
-        "hash": "14829053920727569238"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "6735280535398116383"
+        "file": ".gitignore",
+        "hash": "14001939284477834488"
       },
       {
         "file": "messages/ja.json",
         "hash": "92741647849140464"
       },
       {
-        "file": "postcss.config.js",
-        "hash": "10695304123464973622"
-      },
-      {
-        "file": "commitlint.config.js",
-        "hash": "1797922694529005585"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": ".prettierignore",
-        "hash": "8865097869854018350"
+        "file": "package.json",
+        "hash": "3207801877933523996"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15136568345367583824"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "4936726901607447861"
-      },
-      {
-        "file": "nx.json",
-        "hash": "15966298397628356112"
+        "file": ".npmrc",
+        "hash": "1880664178033616490"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "235626400633494639"
       },
       {
+        "file": ".vscode/settings.json",
+        "hash": "4204368448342774458"
+      },
+      {
         "file": ".prettierrc",
         "hash": "12824233823347773725"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "nx.json",
+        "hash": "15966298397628356112"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "4204368448342774458"
+        "file": "pnpm-lock.yaml",
+        "hash": "3204096521811825709"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": ".env.example",
+        "hash": "726632717887864056"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "renovate.json",
+        "hash": "10269157638479777738"
       },
       {
         "file": ".eslintrc.json",
         "hash": "10082557742416869918"
       },
       {
+        "file": ".husky/commit-msg",
+        "hash": "8945594172206804484"
+      },
+      {
+        "file": "postcss.config.js",
+        "hash": "10695304123464973622"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15136568345367583824"
+      },
+      {
+        "file": "README.md",
+        "hash": "13772225626766054382"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "6735280535398116383"
+      },
+      {
         "file": "lint-staged.config.js",
         "hash": "2185418257167510474"
+      },
+      {
+        "file": ".circleci/config.yml",
+        "hash": "10823197861913887916"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "commitlint.config.js",
+        "hash": "1797922694529005585"
+      },
+      {
+        "file": "messages/en.json",
+        "hash": "14829053920727569238"
       }
     ],
     "projectFileMap": {
@@ -258,11 +247,13 @@
         },
         {
           "file": "apps/base-app/app/layout.tsx",
-          "hash": "2594037430653640316",
+          "hash": "6961670891399477124",
           "deps": [
+            "npm:@ant-design/nextjs-registry",
             "npm:next-intl",
             "npm:next",
-            "npm:react"
+            "npm:react",
+            "shared"
           ]
         },
         {
@@ -331,7 +322,7 @@
         },
         {
           "file": "apps/base-app/containers/auth/login.tsx",
-          "hash": "1931480932609678336",
+          "hash": "8603164966352579646",
           "deps": [
             "npm:@ant-design/icons",
             "npm:@hookform/resolvers",
@@ -384,7 +375,7 @@
         },
         {
           "file": "apps/base-app/next.config.js",
-          "hash": "8073608234715909120",
+          "hash": "12988053367271654410",
           "deps": [
             "npm:@nx/next",
             "npm:next-intl"
@@ -528,7 +519,7 @@
         },
         {
           "file": "shared/src/firebase.ts",
-          "hash": "514853861056744097",
+          "hash": "3070417849650848794",
           "deps": [
             "npm:firebase"
           ]
@@ -554,17 +545,6 @@
           "hash": "11104622809057260450"
         },
         {
-          "file": "shared/src/utils/AntdRegistry.tsx",
-          "hash": "16099739927919274947",
-          "deps": [
-            "npm:@ant-design/cssinjs",
-            "npm:antd",
-            "npm:antd-style",
-            "npm:next",
-            "npm:react"
-          ]
-        },
-        {
           "file": "shared/src/utils/config.ts",
           "hash": "7475940633373473049",
           "deps": [
@@ -580,16 +560,7 @@
         },
         {
           "file": "shared/src/utils/index.ts",
-          "hash": "12872043982442963443"
-        },
-        {
-          "file": "shared/src/utils/provider.tsx",
-          "hash": "13242895559386157420",
-          "deps": [
-            "npm:react",
-            "npm:next",
-            "npm:styled-components"
-          ]
+          "hash": "7377711055768670504"
         },
         {
           "file": "shared/src/utils/store-config.ts",
@@ -612,6 +583,15 @@
         {
           "file": "shared/tsconfig.lib.json",
           "hash": "14501583329670895298"
+        },
+        {
+          "file": "shared/src/utils/registry.tsx",
+          "hash": "864220959668115885",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:styled-components"
+          ]
         }
       ]
     }

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use client';
 import {
   GoogleOutlined,
@@ -48,7 +49,13 @@ export const LoginContainer = () => {
         <LoginTopContent>
           <Flex vertical justify={'center'} align={'center'}>
             <div style={{ position: 'relative' }}>
-              <Image src="/logo.svg" alt="logo" width={150} height={40} />
+              <Image
+                src="/logo.svg"
+                alt="logo"
+                width={150}
+                height={40}
+                priority
+              />
             </div>
             <Typography.Title level={1}>login</Typography.Title>
             <Typography.Text type={'secondary'} className={'slug'}>
@@ -66,14 +73,14 @@ export const LoginContainer = () => {
             <Controller
               name="email"
               control={control}
-              render={({ field, formState: { errors } }) => (
+              render={({ field: { ref, ...rest }, formState: { errors } }) => (
                 <Input
                   label={t('Email')}
                   placeholder={'Email'}
                   size={'middle'}
                   id="email"
                   prefix={<MailOutlined />}
-                  {...field}
+                  {...rest}
                   error={(errors.email?.message as string) || ''}
                 />
               )}
@@ -81,7 +88,7 @@ export const LoginContainer = () => {
             <Controller
               name="password"
               control={control}
-              render={({ field, formState: { errors } }) => (
+              render={({ field: { ref, ...rest }, formState: { errors } }) => (
                 <Input
                   label={t('Password')}
                   placeholder={'Password'}
@@ -89,7 +96,7 @@ export const LoginContainer = () => {
                   type="password"
                   id="password"
                   prefix={<LockOutlined />}
-                  {...field}
+                  {...rest}
                   error={(errors.password?.message as string) || ''}
                 />
               )}

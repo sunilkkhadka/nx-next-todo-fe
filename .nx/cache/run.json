@@ -1,21 +1,9 @@
 {
   "run": {
-    "command": "nx run base-app:dev --ssl=true",
-    "startTime": "2024-07-21T06:35:31.964Z",
-    "endTime": "2024-07-21T06:35:32.025Z",
+    "command": "nx affected:lint --files=apps/base-app/app/page.tsx,apps/base-app/auth.ts,apps/base-app/containers/auth/login.tsx",
+    "startTime": "2024-07-21T08:19:22.399Z",
+    "endTime": "2024-07-21T08:19:22.400Z",
     "inner": false
   },
-  "tasks": [
-    {
-      "taskId": "base-app:dev",
-      "target": "dev",
-      "projectName": "base-app",
-      "hash": "12985661033667925423",
-      "startTime": "2024-07-21T06:35:31.970Z",
-      "endTime": "2024-07-21T06:35:32.024Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    }
-  ]
+  "tasks": []
 }

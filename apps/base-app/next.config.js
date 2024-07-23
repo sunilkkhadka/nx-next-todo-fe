@@ -9,6 +9,9 @@ const withNextIntl = createNextIntlPlugin();
  * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
  **/
 const nextConfig = {
+  compiler: {
+    styledComponents: true
+  },
   nx: {
     // Set this to true if you would like to use SVGR
     // See: https://github.com/gregberge/svgr

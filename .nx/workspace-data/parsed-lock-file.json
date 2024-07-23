@@ -54,6 +54,15 @@
         "hash": "sha512-bCPXTAg66f5bdccM4TT21SQBDO1Ek2gho9h3nO9DAKXJP4sq+5VBjrQMSxMVXSB3HyEz+cUbHQ5+6ogxCOpaew=="
       }
     },
+    "npm:@ant-design/nextjs-registry": {
+      "type": "npm",
+      "name": "npm:@ant-design/nextjs-registry",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "@ant-design/nextjs-registry",
+        "hash": "sha512-kU1K1UOhwrF6DPv73MhuL5a6U4e6/TiFapeLUt/c/kch9h5qFwEaJPb4RSJKNw0PRBfqCAPS011wVm4wYcrqbQ=="
+      }
+    },
     "npm:@ant-design/react-slick": {
       "type": "npm",
       "name": "npm:@ant-design/react-slick",
@@ -15592,6 +15601,31 @@
     },
     {
       "source": "npm:@ant-design/icons",
+      "target": "npm:react-dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ant-design/nextjs-registry",
+      "target": "npm:@ant-design/cssinjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ant-design/nextjs-registry",
+      "target": "npm:antd",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ant-design/nextjs-registry",
+      "target": "npm:next",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ant-design/nextjs-registry",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ant-design/nextjs-registry",
       "target": "npm:react-dom",
       "type": "static"
     },
