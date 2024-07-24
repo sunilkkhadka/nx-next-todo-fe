@@ -1,9 +1,21 @@
 {
   "run": {
-    "command": "nx affected:lint --files=apps/base-app/app/page.tsx,apps/base-app/auth.ts,apps/base-app/containers/auth/login.tsx",
-    "startTime": "2024-07-21T08:19:22.399Z",
-    "endTime": "2024-07-21T08:19:22.400Z",
+    "command": "nx affected:lint --files=apps/base-app/app/layout.tsx,apps/base-app/containers/auth/login.tsx,apps/base-app/next.config.js,shared/src/firebase.ts,shared/src/utils/index.ts,shared/src/utils/registry.tsx",
+    "startTime": "2024-07-23T17:42:23.026Z",
+    "endTime": "2024-07-23T17:42:24.554Z",
     "inner": false
   },
-  "tasks": []
+  "tasks": [
+    {
+      "taskId": "shared:lint",
+      "target": "lint",
+      "projectName": "shared",
+      "hash": "17850966014460043951",
+      "startTime": "2024-07-23T17:42:23.036Z",
+      "endTime": "2024-07-23T17:42:24.553Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
 }

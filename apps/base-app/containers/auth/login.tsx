@@ -12,6 +12,7 @@ import { Divider, Flex, Typography } from 'antd';
 import { signIn } from 'next-auth/react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import z from 'zod';
 import {
@@ -33,15 +34,24 @@ const schema = z
 type InputType = z.infer<typeof schema>;
 export const LoginContainer = () => {
   const t = useTranslations('Login');
+  const [isLogin, setIsLogin] = useState(false);
   const { handleSubmit, control } = useForm<InputType>({
     resolver: zodResolver(schema)
   });
-  const onSubmit = (data: InputType) => {
-    signIn('credentials', {
-      email: data.email,
-      password: data.password,
-      redirectTo: '/'
-    });
+  const onSubmit = async (data: InputType) => {
+    setIsLogin(true);
+    try {
+      await signIn('credentials', {
+        email: data.email,
+        password: data.password,
+        redirectTo: '/'
+      });
+      setIsLogin(false);
+    } catch (error) {
+      setIsLogin(false);
+    } finally {
+      setIsLogin(false);
+    }
   };
   return (
     <LoginWrapperSection>
@@ -102,11 +112,17 @@ export const LoginContainer = () => {
               )}
             />
             <Flex>
-              <Typography.Text type={'secondary'} className={'forgot_password'}>
+              <Typography.Text
+                type={'secondary'}
+                className={'forgot_password'}
+                style={{
+                  pointerEvents: isLogin ? 'none' : 'auto'
+                }}
+              >
                 {t('Forgot password')}
               </Typography.Text>{' '}
             </Flex>
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" loading={isLogin}>
               {t('login')}
             </Button>
           </Flex>
@@ -117,13 +133,14 @@ export const LoginContainer = () => {
             icon={<GoogleOutlined />}
             type={'primary'}
             onClick={() => signIn('google', { redirectTo: '/' })}
-            block
+            disabled={isLogin}
           >
             {t('Sign in with Google')}
           </Button>
           <Button
             icon={<LineOutlined />}
             onClick={() => signIn('line', { redirectTo: '/' })}
+            disabled={isLogin}
           >
             {'Sign in with Line'}
           </Button>

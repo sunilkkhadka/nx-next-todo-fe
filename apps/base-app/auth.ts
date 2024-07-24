@@ -16,13 +16,23 @@ export const config = {
           (credentials as any)?.email || '',
           (credentials as any)?.password || ''
         )
-          .then((userCredential) => {
-            if (userCredential.user) {
-              return userCredential.user;
+          .then(async (userCredential) => {
+            if (userCredential?.user) {
+              return {
+                email: userCredential?.user.email,
+                accessToken: await userCredential?.user.getIdToken(),
+                refreshToken: userCredential.user?.refreshToken,
+                displayName: userCredential?.user.displayName,
+                picture: userCredential?.user.photoURL,
+                emailVerified: userCredential?.user.emailVerified,
+                phoneNumber: userCredential?.user.phoneNumber
+              };
             }
             return null;
           })
-          .catch((error) => error);
+          .catch(() => {
+            throw new Error('Invalid email or password');
+          });
       }
     }),
     Google({
@@ -41,12 +51,37 @@ export const config = {
   },
 
   callbacks: {
+    async jwt({ token, user }: any) {
+      if (user) {
+        // User is available during sign-in
+        token.id = user.id;
+        token.email = user.email;
+        token.accessToken = user.accessToken;
+        token.refreshToken = user.refreshToken;
+        token.displayName = user.displayName;
+        token.picture = user.picture;
+        token.emailVerified = user.emailVerified;
+        token.phoneNumber = user.phoneNumber;
+      }
+      return token;
+    },
+
+    async session({ session, token }: any) {
+      session.user.id = token.id;
+      session.user.accessToken = token.accessToken;
+      session.user.refreshToken = token.refreshToken;
+      session.user.displayName = token.displayName;
+      session.user.picture = token.picture;
+      session.user.emailVerified = token.emailVerified;
+      session.user.emailVerified = token.emailVerified;
+      return session;
+    },
     authorized: async (authorization: any) => {
       const {
         auth,
         request: { nextUrl }
       } = authorization as any;
-      const isLoggedIn = !!auth?.user;
+      const isLoggedIn = auth?.user?.id;
       const isOnDashboard = nextUrl.pathname === '/';
       if (isOnDashboard) {
         if (isLoggedIn) return true;
