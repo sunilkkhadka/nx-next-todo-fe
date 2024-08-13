@@ -16034,12 +16034,12 @@
       },
       {
         "source": "shared",
-        "target": "npm:zustand",
+        "target": "npm:next",
         "type": "static"
       },
       {
         "source": "shared",
-        "target": "npm:next",
+        "target": "npm:zustand",
         "type": "static"
       }
     ],

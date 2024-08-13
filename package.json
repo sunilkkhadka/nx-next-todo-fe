@@ -98,5 +98,8 @@
   "validate-branch-name": {
     "pattern": "^(master|main|develop){1}$|^(EAS-d*).+",
     "errorMsg": "Invalid branch name"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

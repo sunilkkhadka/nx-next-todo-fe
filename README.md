@@ -34,8 +34,8 @@
    **Note: 📖 If you want to remove apps/projects**
 
 ```bash
-   nx g @nx/workspace:remove <app-name>-e2e
-   nx g @nx/workspace:remove <app-name>
+   nx g remove <app-name>-e2e
+   nx g remove <app-name>
 ```
 
 ## 📖 Introduction

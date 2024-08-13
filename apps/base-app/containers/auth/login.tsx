@@ -139,7 +139,12 @@ export const LoginContainer = () => {
           </Button>
           <Button
             icon={<LineOutlined />}
-            onClick={() => signIn('line', { redirectTo: '/' })}
+            onClick={() =>
+              signIn('line', {
+                redirectTo: '/',
+                callbackUrl: 'http://localhost:3000/api/auth/callback/line'
+              })
+            }
             disabled={isLogin}
           >
             {'Sign in with Line'}
