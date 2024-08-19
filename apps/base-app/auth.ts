@@ -44,7 +44,11 @@ export const config = {
         }
       }
     }),
-    Line
+    Line({
+      clientId: process.env.AUTH_LINE_ID,
+      clientSecret: process.env.AUTH_LINE_SECRET,
+      checks: ['state']
+    })
   ],
   pages: {
     signIn: '/login'
