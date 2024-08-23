@@ -1,9 +1,0 @@
-{
-  "run": {
-    "command": "nx affected:lint --files=apps/base-app/containers/auth/login.tsx",
-    "startTime": "2024-08-13T16:10:58.238Z",
-    "endTime": "2024-08-13T16:10:58.239Z",
-    "inner": false
-  },
-  "tasks": []
-}
