@@ -22,7 +22,7 @@ export default async function LocaleLayout({ children }: Props) {
   return (
     <html lang={locale}>
       <head>
-        <title>next-intl example</title>
+        <title>Skeleton</title>
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <NextIntlClientProvider messages={messages}>
