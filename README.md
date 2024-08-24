@@ -29,7 +29,7 @@
    ```
 6. To create a component
    ```bash
-     nx g @nx/next:component user-button  --directory=components --project=shared  --style=css
+    nx g @nx/next:component <component name> --directory shared/src/components/<component name>
    ```
    **Note: 📖 If you want to remove apps/projects**
 

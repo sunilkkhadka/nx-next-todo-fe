@@ -1,12 +1,11 @@
 import { AntdRegistry } from '@ant-design/nextjs-registry';
+import { StyledComponentsRegistry, themeConfig } from '@skeleton/shared';
+import { ConfigProvider } from 'antd';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
-
-import { StyledComponentsRegistry } from '@skeleton/shared';
-import LocaleSwitcher from '../components/locale-switcher';
-
+import { AppMainLayout } from '../layouts';
 const inter = Inter({ subsets: ['latin'] });
 
 type Props = {
@@ -29,15 +28,13 @@ export default async function LocaleLayout({ children }: Props) {
         <NextIntlClientProvider messages={messages}>
           <StyledComponentsRegistry>
             <AntdRegistry>
-              <div
-                style={{
-                  display: 'flex',
-                  justifyContent: 'flex-end'
+              <ConfigProvider
+                theme={{
+                  ...themeConfig
                 }}
               >
-                <LocaleSwitcher />
-              </div>
-              {children}
+                <AppMainLayout>{children}</AppMainLayout>
+              </ConfigProvider>
             </AntdRegistry>
           </StyledComponentsRegistry>
         </NextIntlClientProvider>
