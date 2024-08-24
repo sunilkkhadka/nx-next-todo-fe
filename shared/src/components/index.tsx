@@ -1,5 +1,6 @@
 export * from './button/button';
 export * from './card/card';
+export * from './employee-card/employee-card';
 export * from './get-started-card/get-started-card';
 export * from './input/input';
 export * from './loader/loader';
@@ -8,6 +9,7 @@ export * from './notification-card/notification-card';
 export * from './page-header/page-header';
 export * from './project-card/project-card';
 export * from './revenue-card/revenue-card';
+export * from './social-media-card/social-media-card';
 export * from './tasks-chart-card/tasks-chart-card';
 export * from './tasks-list-card/tasks-list-card';
 export * from './theme-switcher/theme-switcher';
