@@ -3,6 +3,7 @@ import { Layout, theme } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { StylesContext } from '../context/styles';
+import FooterNav from './footer';
 import { HeaderNav } from './header';
 import { Sidebar } from './sidebar';
 const { Content } = Layout;
@@ -70,6 +71,7 @@ const AppMainLayout = ({ children }: { children: React.ReactNode }) => {
           >
             {children}
           </Content>
+          <FooterNav collapsed={collapsed} />
         </Layout>
       </Layout>
     </StylesContext.Provider>

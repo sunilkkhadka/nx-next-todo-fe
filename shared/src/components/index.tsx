@@ -7,6 +7,7 @@ export * from './logo/logo';
 export * from './notification-card/notification-card';
 export * from './page-header/page-header';
 export * from './project-card/project-card';
+export * from './revenue-card/revenue-card';
 export * from './tasks-chart-card/tasks-chart-card';
 export * from './tasks-list-card/tasks-list-card';
 export * from './theme-switcher/theme-switcher';

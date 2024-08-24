@@ -86,7 +86,7 @@ export const config = {
         request: { nextUrl }
       } = authorization as any;
       const isLoggedIn = auth?.user?.id;
-      const isOnDashboard = nextUrl.pathname === '/';
+      const isOnDashboard = nextUrl.pathname !== '/login';
       if (isOnDashboard) {
         if (isLoggedIn) return true;
         return false;
