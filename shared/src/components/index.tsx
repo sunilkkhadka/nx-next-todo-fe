@@ -1,6 +1,7 @@
 export * from './button/button';
 export * from './card/card';
 export * from './employee-card/employee-card';
+export * from './faq-collapse/faq-collapse';
 export * from './get-started-card/get-started-card';
 export * from './input/input';
 export * from './loader/loader';
