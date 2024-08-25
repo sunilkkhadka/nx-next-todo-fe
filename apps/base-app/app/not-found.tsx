@@ -1,13 +1,13 @@
-'use client';
-
-import { redirect, usePathname } from 'next/navigation';
-
-// Can be imported from a shared config
-const defaultLocale = 'en';
+import { BackBtn } from '@skeleton/shared';
+import { Result } from 'antd';
 
 export default function NotFound() {
-  const pathname = usePathname();
-
-  // Add a locale prefix to show a localized not found page
-  redirect(`/${defaultLocale}${pathname}`);
+  return (
+    <Result
+      status="404"
+      title="404"
+      subTitle="Sorry, the page you visited does not exist."
+      extra={<BackBtn type="primary" />}
+    />
+  );
 }
