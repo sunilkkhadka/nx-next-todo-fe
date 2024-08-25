@@ -1,7 +1,11 @@
 import { UserProfileActivityContainer } from '../../../containers';
-
+import { AppMainLayout } from '../../../layouts';
 const UserActivityPage = () => {
-  return <UserProfileActivityContainer />;
+  return (
+    <AppMainLayout>
+      <UserProfileActivityContainer />
+    </AppMainLayout>
+  );
 };
 
 export default UserActivityPage;

@@ -1,5 +1,9 @@
 import { UserHelpContainer } from '../../../containers';
-
+import { AppMainLayout } from '../../../layouts';
 export default function page() {
-  return <UserHelpContainer />;
+  return (
+    <AppMainLayout>
+      <UserHelpContainer />
+    </AppMainLayout>
+  );
 }

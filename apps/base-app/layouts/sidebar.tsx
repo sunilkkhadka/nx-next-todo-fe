@@ -32,8 +32,8 @@ const getItem = (
 };
 export const items: MenuProps['items'] = [
   getItem('Dashboards', 'dashboards', <PieChartOutlined />, [
-    getItem(<Link href={'/'}>Default</Link>, 'default', null),
-    getItem(<Link href={'/'}>Projects</Link>, 'projects', null),
+    getItem(<Link href={'/default'}>Default</Link>, 'default', null),
+    getItem(<Link href={'/projects'}>Projects</Link>, 'projects', null),
     getItem(<Link href={'/'}>eCommerce</Link>, 'ecommerce', null),
     getItem(<Link href={'/'}>Marketing</Link>, 'marketing', null),
     getItem(<Link href={'/'}>Social</Link>, 'social', null),
@@ -44,12 +44,16 @@ export const items: MenuProps['items'] = [
 
   getItem('Pages', 'pages', null, [], 'group'),
   getItem('Corporate', 'corporate', <IdcardOutlined />, [
-    getItem(<Link href={'/'}>About</Link>, 'about', null),
-    getItem(<Link href={'/'}>Team</Link>, 'team', null),
-    getItem(<Link href={'/'}>FAQ</Link>, 'faqs', null),
-    getItem(<Link href={'/'}>Contact us</Link>, 'contact us', null),
-    getItem(<Link href={'/'}>Pricing</Link>, 'pricing', null),
-    getItem(<Link href={'/'}>License</Link>, 'license', null)
+    getItem(<Link href={'/corporate/about'}>About</Link>, 'about', null),
+    getItem(<Link href={'/corporate/team'}>Team</Link>, 'team', null),
+    getItem(<Link href={'/corporate/faqs'}>FAQ</Link>, 'faqs', null),
+    getItem(
+      <Link href={'/corporate/contact'}>Contact us</Link>,
+      'contact us',
+      null
+    ),
+    getItem(<Link href={'/corporate/pricing'}>Pricing</Link>, 'pricing', null),
+    getItem(<Link href={'/corporate/license'}>License</Link>, 'license', null)
   ]),
   getItem('User profile', 'user-profile', <UserOutlined />, [
     getItem(
@@ -86,12 +90,16 @@ export const items: MenuProps['items'] = [
   ]),
 
   getItem('Authentication', 'authentication', <SecurityScanOutlined />, [
-    getItem(<Link href={'/'}>Sign In</Link>, 'auth-signin', null),
-    getItem(<Link href={'/'}>Sign Up</Link>, 'auth-signup', null),
-    getItem(<Link href={'/'}>Welcome</Link>, 'auth-welcome', null),
-    getItem(<Link href={'/'}>Verify email</Link>, 'auth-verify', null),
+    getItem(<Link href={'/auth/signin'}>Sign In</Link>, 'auth-signin', null),
+    getItem(<Link href={'/auth/signup'}>Sign Up</Link>, 'auth-signup', null),
+    getItem(<Link href={'/auth/welcome'}>Welcome</Link>, 'auth-welcome', null),
     getItem(
-      <Link href={'/'}>Password reset</Link>,
+      <Link href={'/auth/verify'}>Verify email</Link>,
+      'auth-verify',
+      null
+    ),
+    getItem(
+      <Link href={'/auth/password-reset'}>Password reset</Link>,
       'auth-password-reset',
       null
     ),

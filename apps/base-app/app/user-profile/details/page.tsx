@@ -1,7 +1,11 @@
 import { UserDetailContainer } from '../../../containers';
-
+import { AppMainLayout } from '../../../layouts';
 const UserProfileDetail = () => {
-  return <UserDetailContainer />;
+  return (
+    <AppMainLayout>
+      <UserDetailContainer />
+    </AppMainLayout>
+  );
 };
 
 export default UserProfileDetail;

@@ -1,7 +1,11 @@
 import { UserPreferencesContainer } from '../../../containers';
-
+import { AppMainLayout } from '../../../layouts';
 const UserPreferencesPage = () => {
-  return <UserPreferencesContainer />;
+  return (
+    <AppMainLayout>
+      <UserPreferencesContainer />;
+    </AppMainLayout>
+  );
 };
 
 export default UserPreferencesPage;
