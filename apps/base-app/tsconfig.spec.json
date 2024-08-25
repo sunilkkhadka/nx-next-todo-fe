@@ -4,7 +4,10 @@
     "outDir": "../../dist/out-tsc",
     "module": "commonjs",
     "types": ["jest", "node"],
-    "jsx": "react"
+    "jsx": "react",
+    "paths": {
+      "base-app/*": ["apps/base-app/*"]
+    }
   },
   "include": [
     "jest.config.ts",
