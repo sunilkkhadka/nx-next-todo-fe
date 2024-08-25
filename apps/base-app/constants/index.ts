@@ -1,5 +1,6 @@
 export * from './themes';
-const DASHBOARD_ITEMS = [
+
+export const DASHBOARD_ITEMS = [
   { title: 'default', path: '/' },
   { title: 'projects', path: '/' },
   { title: 'ecommerce', path: '/' },
@@ -10,7 +11,7 @@ const DASHBOARD_ITEMS = [
   { title: 'logistics', path: '/' }
 ];
 
-const CORPORATE_ITEMS = [
+export const CORPORATE_ITEMS = [
   { title: 'about', path: '/' },
   { title: 'team', path: '/' },
   { title: 'faq', path: '/' },
@@ -19,18 +20,7 @@ const CORPORATE_ITEMS = [
   { title: 'license', path: '/' }
 ];
 
-const USER_PROFILE_ITEMS = [
-  { title: 'details', path: '/' },
-  { title: 'preferences', path: '/' },
-  { title: 'information', path: '/' },
-  { title: 'security', path: '/' },
-  { title: 'activity', path: '/' },
-  { title: 'actions', path: '/' },
-  { title: 'help', path: '/' },
-  { title: 'feedback', path: '/' }
-];
-
-const AUTHENTICATION_ITEMS = [
+export const AUTHENTICATION_ITEMS = [
   { title: 'sign in', path: '/' },
   { title: 'sign up', path: '/' },
   { title: 'welcome', path: '/' },
@@ -39,7 +29,7 @@ const AUTHENTICATION_ITEMS = [
   { title: 'account deleted', path: '/' }
 ];
 
-const ERROR_ITEMS = [
+export const ERROR_ITEMS = [
   { title: '400', path: '/' },
   { title: '403', path: '/' },
   { title: '404', path: '/' },
@@ -47,10 +37,12 @@ const ERROR_ITEMS = [
   { title: '503', path: '/' }
 ];
 
-export {
-  AUTHENTICATION_ITEMS,
-  CORPORATE_ITEMS,
-  DASHBOARD_ITEMS,
-  ERROR_ITEMS,
-  USER_PROFILE_ITEMS
-};
+export const USER_PROFILE_ITEMS = [
+  { title: 'details', path: '/user-profile/details' },
+  { title: 'preferences', path: '/user-profile/preferences' },
+  { title: 'information', path: '/user-profile/information' },
+  { title: 'security', path: '/user-profile/security' },
+  { title: 'activity', path: '/user-profile/activity' },
+  { title: 'actions', path: '/user-profile/actions' },
+  { title: 'help', path: '/user-profile/help' }
+];

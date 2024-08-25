@@ -52,14 +52,37 @@ export const items: MenuProps['items'] = [
     getItem(<Link href={'/'}>License</Link>, 'license', null)
   ]),
   getItem('User profile', 'user-profile', <UserOutlined />, [
-    getItem(<Link href={'/'}>Details</Link>, 'details', null),
-    getItem(<Link href={'/'}>Preferences</Link>, 'preferences', null),
-    getItem(<Link href={'/'}>Information</Link>, 'personal-information', null),
-    getItem(<Link href={'/'}>Security</Link>, 'security', null),
-    getItem(<Link href={'/'}>Activity</Link>, 'activity', null),
-    getItem(<Link href={'/'}>Actions</Link>, 'actions', null),
-    getItem(<Link href={'/'}>Help</Link>, 'help', null),
-    getItem(<Link href={'/'}>Feedback</Link>, 'feedback', null)
+    getItem(
+      <Link href={'/user-profile/details'}>Details</Link>,
+      'details',
+      null
+    ),
+    getItem(
+      <Link href={'/user-profile/preferences'}>Preferences</Link>,
+      'preferences',
+      null
+    ),
+    getItem(
+      <Link href={"/user-profile/information'"}>Information</Link>,
+      'personal-information',
+      null
+    ),
+    getItem(
+      <Link href={"/user-profile/security'"}>Security</Link>,
+      'security',
+      null
+    ),
+    getItem(
+      <Link href={"/user-profile/activity'"}>Activity</Link>,
+      'activity',
+      null
+    ),
+    getItem(
+      <Link href={"/user-profile/actions'"}>Actions</Link>,
+      'actions',
+      null
+    ),
+    getItem(<Link href={"/user-profile/help'"}>Help</Link>, 'help', null)
   ]),
 
   getItem('Authentication', 'authentication', <SecurityScanOutlined />, [
