@@ -1,15 +1,10 @@
 /* eslint-disable no-unused-vars */
 'use client';
 import {
-  AppstoreAddOutlined,
-  BranchesOutlined,
   BugOutlined,
   IdcardOutlined,
-  InfoCircleOutlined,
   PieChartOutlined,
-  ProductOutlined,
   SecurityScanOutlined,
-  SnippetsOutlined,
   UserOutlined
 } from '@ant-design/icons';
 import { COLOR, Logo } from '@skeleton/shared';
@@ -46,8 +41,7 @@ export const items: MenuProps['items'] = [
     getItem(<Link href={'/'}>Learning</Link>, 'learning', null),
     getItem(<Link href={'/'}>Logistics</Link>, 'logistics', null)
   ]),
-  getItem(<Link href={'/'}>About</Link>, 'about', <InfoCircleOutlined />),
-  getItem(<Link href={'/'}>Sitemap</Link>, 'sitemap', <BranchesOutlined />),
+
   getItem('Pages', 'pages', null, [], 'group'),
   getItem('Corporate', 'corporate', <IdcardOutlined />, [
     getItem(<Link href={'/'}>About</Link>, 'about', null),
@@ -85,34 +79,13 @@ export const items: MenuProps['items'] = [
     )
   ]),
   getItem('Errors', 'errors', <BugOutlined />, [
-    getItem(<Link href={'/'}>400</Link>, '400', null),
-    getItem(<Link href={'/'}>403</Link>, '403', null),
-    getItem(<Link href={'/'}>404</Link>, '404', null),
-    getItem(<Link href={'/'}>500</Link>, '500', null),
-    getItem(<Link href={'/'}>503</Link>, '503', null)
-  ]),
-  getItem('Help', 'help', null, [], 'group'),
-  getItem(
-    <Link href={'/'} target="_blank">
-      Roadmap
-    </Link>,
-    'product-roadmap',
-    <ProductOutlined />
-  ),
-  getItem(
-    <Link href={'/'} target="_blank">
-      Components
-    </Link>,
-    'components',
-    <AppstoreAddOutlined />
-  ),
-  getItem(
-    <Link href={'/'} target="_blank">
-      Documentation
-    </Link>,
-    'documentation',
-    <SnippetsOutlined />
-  )
+    getItem(
+      <Link href={'/unexpected'}>Unexpected errors</Link>,
+      'unexpected errors',
+      null
+    ),
+    getItem(<Link href={'/not-found'}>not found</Link>, 'Not found', null)
+  ])
 ];
 const rootSubmenuKeys = ['dashboards', 'corporate', 'user-profile'];
 const Sidebar = ({
