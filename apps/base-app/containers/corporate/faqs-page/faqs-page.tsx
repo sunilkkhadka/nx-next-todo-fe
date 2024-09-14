@@ -21,9 +21,8 @@ export const FaqsPageContainer = () => {
         }))
       };
     });
-
     setFaqs(data);
-  }, [FAQS_DATA]);
+  }, []);
   return (
     <CorporateLayouts>
       <Row {...stylesContext?.rowProps}>

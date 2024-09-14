@@ -21,7 +21,6 @@ import {
   StyledContent,
   StyledHeader
 } from './login.style';
-const { Header, Content } = Layout;
 const schema = z
   .object({
     email: z
