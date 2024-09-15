@@ -31,7 +31,7 @@ export const config = {
             return null;
           })
           .catch(() => {
-            throw new Error('Invalid email or password');
+            // throw new Error('Invalid email or password');
           });
       }
     }),
@@ -51,9 +51,9 @@ export const config = {
     })
   ],
   pages: {
-    signIn: '/login'
+    signIn: '/login',
+    error: '/login'
   },
-
   callbacks: {
     async jwt({ token, user }: any) {
       if (user) {
@@ -69,7 +69,6 @@ export const config = {
       }
       return token;
     },
-
     async session({ session, token }: any) {
       session.user.id = token.id;
       session.user.accessToken = token.accessToken;
@@ -78,23 +77,52 @@ export const config = {
       session.user.picture = token.picture;
       session.user.emailVerified = token.emailVerified;
       session.user.emailVerified = token.emailVerified;
+
       return session;
-    },
-    authorized: async (authorization: any) => {
-      const {
-        auth,
-        request: { nextUrl }
-      } = authorization as any;
-      const isLoggedIn = auth?.user?.id;
-      const isOnDashboard = nextUrl.pathname !== '/login';
-      if (isOnDashboard) {
-        if (isLoggedIn) return true;
-        return false;
-      } else if (isLoggedIn) {
-        return Response.redirect(new URL('/', nextUrl));
-      }
-      return true;
     }
+    // async signIn({ user, account }) {
+    //   // console.log('data', { user, account });
+    //   // if (account?.provider === 'google') {
+    //   //   const dbUser = await fetch(
+    //   //     `${process.env.BACKEND_URL}/auth/google/token?token=${account?.id_token}`,
+    //   //     {
+    //   //       method: 'GET',
+    //   //       headers: {
+    //   //         'Content-Type': 'application/json'
+    //   //       }
+    //   //     }
+    //   //   ).then((r) => r.json());
+
+    //   //   if (!dbUser?.data?.user) return false;
+
+    //   //   user.id = dbUser?.data?.user?.id;
+    //   //   user.email = dbUser?.data?.user?.email;
+    //   //   user.firstName = dbUser?.data?.user?.firstName;
+    //   //   user.lastName = dbUser?.data?.user?.lastName;
+    //   //   user.avatar = dbUser?.data?.user?.avatar;
+    //   //   user.isEmailVerified = dbUser?.data?.user?.isEmailVerified;
+    //   //   user.isPhoneVerified = dbUser?.data?.user?.isPhoneVerified;
+    //   //   user.token = dbUser?.data?.accessToken;
+
+    //   //   return true;
+    //   // }
+    //   return true;
+    // }
+    // authorized: async (authorization: any) => {
+    //   const {
+    //     auth,
+    //     request: { nextUrl }
+    //   } = authorization as any;
+    //   const isLoggedIn = auth?.user?.id;
+    //   const isOnDashboard = nextUrl.pathname !== '/login';
+    //   if (isOnDashboard) {
+    //     if (isLoggedIn) return true;
+    //     return false;
+    //   } else if (isLoggedIn) {
+    //     return Response.redirect(new URL('/', nextUrl));
+    //   }
+    //   return true;
+    // }
   }
 };
 

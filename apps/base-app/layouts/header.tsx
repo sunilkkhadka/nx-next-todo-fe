@@ -18,9 +18,9 @@ import {
   MenuProps,
   Switch,
   Tooltip,
-  message,
   theme
 } from 'antd';
+import { signOut } from 'next-auth/react';
 import { useEffect, useRef, useState } from 'react';
 import LocaleSwitcher from '../components/locale-switcher';
 const { Header } = Layout;
@@ -65,10 +65,7 @@ const HeaderNav = ({ collapsed, setCollapsed, isMobile }: HeaderNavProps) => {
       icon: <LogoutOutlined />,
       danger: true,
       onClick: () => {
-        message.open({
-          type: 'loading',
-          content: 'signing you out'
-        });
+        signOut({ callbackUrl: '/login' });
       }
     }
   ];

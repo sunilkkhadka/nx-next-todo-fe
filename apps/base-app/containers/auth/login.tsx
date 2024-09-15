@@ -9,9 +9,10 @@ import {
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button, Card, Input } from '@skeleton/shared';
 import { Divider, Flex, Layout, Typography } from 'antd';
-import { signIn } from 'next-auth/react';
+import { signIn, useSession } from 'next-auth/react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { redirect } from 'next/navigation';
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import z from 'zod';
@@ -32,6 +33,7 @@ const schema = z
   .required();
 type InputType = z.infer<typeof schema>;
 export const LoginContainer = () => {
+  const { data: session } = useSession();
   const t = useTranslations('Login');
   const [isLogin, setIsLogin] = useState(false);
   const { handleSubmit, control } = useForm<InputType>({
@@ -52,6 +54,7 @@ export const LoginContainer = () => {
       setIsLogin(false);
     }
   };
+  if (session) return redirect('/');
   return (
     <Layout style={{ padding: '11px' }}>
       <StyledHeader>

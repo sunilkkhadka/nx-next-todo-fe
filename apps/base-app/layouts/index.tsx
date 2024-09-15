@@ -1,5 +1,7 @@
 'use client';
 import { Layout, theme } from 'antd';
+import { useSession } from 'next-auth/react';
+import { redirect } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { StylesContext } from '../context/styles';
@@ -12,13 +14,15 @@ const AppMainLayout = ({ children }: { children: React.ReactNode }) => {
   const {
     token: { borderRadius }
   } = theme.useToken();
+  const { data: session } = useSession();
+
   const isMobile = useMediaQuery({ maxWidth: 769 });
   const [collapsed, setCollapsed] = useState(false);
-
   useEffect(() => {
     setCollapsed(isMobile);
   }, [isMobile]);
 
+  if (!session) redirect('/login');
   return (
     <StylesContext.Provider
       value={{
