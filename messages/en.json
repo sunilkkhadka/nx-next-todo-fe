@@ -1,43 +1,5 @@
 {
   "Index": {
-    "Hello": "Hello",
-    "title": "Hello world!",
-    "coming soon": "coming soon",
-    "hello world": "hello world",
-    "change theme": "change theme",
-    "You're logged in": "You're logged in",
-    "logout": "logout"
-  },
-  "Login": {
-    "Welcome back, Login with": "Welcome back, Login with",
-    "Google": "Google",
-    "Twitter": "Twitter",
-    "Or continue with email": "Or continue with email",
-    "Email": "Email",
-    "Password": "Password",
-    "Forgot password": "Forgot password?",
-    "login": "login",
-    "Your password": "Your password",
-    "Sign in with Google": "Sign in with Google",
-    "Sign in with Twitter": "Sign in with Twitter",
-    "Sign in with Github": "Sign in with Github",
-    "Welcome_back": "Welcome back to RTW next skeleton! Please enter your details below to sign in."
-  },
-  "NotFoundPage": {
-    "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
-  },
-  "Error": {
-    "title": "Something went wrong!",
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
-  },
-  "LocaleSwitcher-d": {
-    "label": "Change language",
-    "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
-  },
-  "LocaleSwitcher": {
-    "ja": "Japanese",
-    "en": "English",
-    "label": "Language"
+    "Hello": "Hello"
   }
 }
