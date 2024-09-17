@@ -4,30 +4,22 @@
 
 ## ▶️ Getting Started
 
-1. Install [Nx](nx.dev) globally
-   ```bash
-     pnpm add  --global nx@latest
-   ```
-2. Clone the repo
-   ```bash
-    mkdir <folder_name> && cd $_ && git clone git@github.com:bj-budhathoki/next_skleton.git .
-   ```
-3. Install dependencies
+1. Install dependencies
 
    ```bash
-   pnpm install
+   yarn bootstrap
 
    ```
 
-4. initialize git hook with husky
+2. initialize git hook with husky
    ```bash
    npx husky install
    ```
-5. To create a new nextJS application
+3. To create a new nextJS application
    ```bash
      nx generate @nx/next:application --name=test-project --no-interactive
    ```
-6. To create a component
+4. To create a component
    ```bash
     nx g @nx/next:component <component name> --directory shared/src/components/<component name>
    ```
@@ -69,145 +61,49 @@ See below the file tree to understand the project structure.
 > Folders and file structure.
 
 ```txt
-📦skeleton
-┣ 📂apps
-┃ ┣ 📂docs
-┃ ┃ ┣ 📂app
-┃ ┃ ┃ ┣ 📜app-root-provider.tsx
-┃ ┃ ┃ ┣ 📜favicon.ico
-┃ ┃ ┃ ┣ 📜layout.tsx
-┃ ┃ ┃ ┗ 📜page.tsx
-┃ ┃ ┣ 📂containers
-┃ ┃ ┃ ┣ 📜dates.tsx
-┃ ┃ ┃ ┣ 📜form-example.tsx
-┃ ┃ ┃ ┗ 📜table-example.tsx
-┃ ┃ ┣ 📂public
-┃ ┃ ┃ ┗ 📜.gitkeep
-┃ ┃ ┣ 📂store
-┃ ┃ ┃ ┗ 📜config.ts
-┃ ┃ ┣ 📂types
-┃ ┃ ┃ ┗ 📜index.tsx
-┃ ┃ ┣ 📜.DS_Store
-┃ ┃ ┣ 📜.eslintrc.json
-┃ ┃ ┣ 📜index.d.ts
-┃ ┃ ┣ 📜jest.config.ts
-┃ ┃ ┣ 📜next-env.d.ts
-┃ ┃ ┣ 📜next.config.js
-┃ ┃ ┣ 📜project.json
-┃ ┃ ┣ 📜tsconfig.json
-┃ ┃ ┣ 📜tsconfig.spec.json
-┃ ┃ ┗ 📜tsconfig.tsbuildinfo
-┃ ┣ 📂docs-e2e
-┃ ┃ ┣ 📂src
-┃ ┃ ┃ ┣ 📂e2e
-┃ ┃ ┃ ┃ ┗ 📜app.cy.ts
-┃ ┃ ┃ ┣ 📂fixtures
-┃ ┃ ┃ ┃ ┗ 📜example.json
-┃ ┃ ┃ ┗ 📂support
-┃ ┃ ┃ ┃ ┣ 📜app.po.ts
-┃ ┃ ┃ ┃ ┣ 📜commands.ts
-┃ ┃ ┃ ┃ ┗ 📜e2e.ts
-┃ ┃ ┣ 📜.eslintrc.json
-┃ ┃ ┣ 📜cypress.config.ts
-┃ ┃ ┣ 📜project.json
-┃ ┃ ┗ 📜tsconfig.json
-┣ 📂libs
-┃ ┣ 📂shared
-┃ ┃ ┣ 📂src
-┃ ┃ ┃ ┣ 📂lib
-┃ ┃ ┃ ┃ ┣ 📂components
-┃ ┃ ┃ ┃ ┃ ┣ 📂Icons
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜icons.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜icons.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂breadcrumbs
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜breadcrumbs.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜breadcrumbs.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂buttons
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜action-icon-button.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜action-icon-button.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜button.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜button.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜user-button.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂check-box-input
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜check-box-group-input.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜check-box-nput.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂datepicker-provider
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜datepicker-provider.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜datepicker-provider.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂direction-switcher
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜direction-switcher.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂error
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜error.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜error.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂lang-switcher
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜lang-switcher.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜lang-switcher.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂number-text-input
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜number-text-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂overlay-dialog
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜overlay-dialog.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜overlay-dialog.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂page-not-found
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜page-not-found.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜page-not-found.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂password-text-input
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜password-text-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂radio-input
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜radio-group-input.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜radio-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂select-input
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜select-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂social-buttons
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜social-buttons.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜social-buttons.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂table
-┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜table.spec.tsx
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜table.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂text-input
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜text-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂textarea-input
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜textarea-input.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📂theme-switcher
-┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜theme-switcher.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📜.DS_Store
-┃ ┃ ┃ ┃ ┃ ┗ 📜index.tsx
-┃ ┃ ┃ ┃ ┣ 📂hooks
-┃ ┃ ┃ ┃ ┃ ┣ 📜use-confirmation-modal.ts
-┃ ┃ ┃ ┃ ┃ ┗ 📜use-notification.ts
-┃ ┃ ┃ ┃ ┣ 📂types
-┃ ┃ ┃ ┃ ┃ ┗ 📜index.ts
-┃ ┃ ┃ ┃ ┣ 📂utils
-┃ ┃ ┃ ┃ ┃ ┣ 📜Provider.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📜authOptions.ts
-┃ ┃ ┃ ┃ ┃ ┣ 📜emotion.tsx
-┃ ┃ ┃ ┃ ┃ ┣ 📜firebase.config.ts
-┃ ┃ ┃ ┃ ┃ ┣ 📜storeConfig.ts
-┃ ┃ ┃ ┃ ┃ ┗ 📜theme.ts
-┃ ┃ ┃ ┃ ┗ 📜.DS_Store
-┃ ┃ ┃ ┣ 📜.DS_Store
-┃ ┃ ┃ ┣ 📜index.ts
-┃ ┃ ┃ ┗ 📜server.ts
-┃ ┃ ┣ 📜.DS_Store
-┃ ┃ ┣ 📜.eslintrc.json
-┃ ┃ ┣ 📜README.md
-┃ ┃ ┣ 📜project.json
-┃ ┃ ┣ 📜tsconfig.json
-┃ ┃ ┗ 📜tsconfig.lib.json
-┃ ┣ 📜.DS_Store
-┃ ┗ 📜.gitkeep
-┣ 📂tools
-┃ ┗ 📜tsconfig.tools.json
-┣ 📜.DS_Store
-┣ 📜README.md
-┣ 📜commitlint.config.js
-┣ 📜jest.config.ts
-┣ 📜jest.preset.js
-┣ 📜lint-staged.config.js
-┣ 📜nx.json
-┣ 📜package.json
-┣ 📜pnpm-lock.yaml
-┣ 📜renovate.json
-┗ 📜tsconfig.base.json
+.
+├── consumer
+│   ├── index.d.ts
+│   ├── jest.config.ts
+│   ├── next-env.d.ts
+│   ├── next.config.js
+│   ├── project.json
+│   ├── public
+│   │   └── favicon.ico
+│   ├── specs
+│   │   └── index.spec.tsx
+│   ├── src
+│   │   └── app
+│   │       ├── api
+│   │       │   └── hello
+│   │       │       └── route.ts
+│   │       ├── global.css
+│   │       ├── layout.tsx
+│   │       ├── page.module.css
+│   │       └── page.tsx
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+└── owner
+    ├── index.d.ts
+    ├── jest.config.ts
+    ├── next-env.d.ts
+    ├── next.config.js
+    ├── project.json
+    ├── public
+    │   └── favicon.ico
+    ├── specs
+    │   └── index.spec.tsx
+    ├── src
+    │   └── app
+    │       ├── api
+    │       │   └── hello
+    │       │       └── route.ts
+    │       ├── global.css
+    │       ├── layout.tsx
+    │       ├── page.module.css
+    │       └── page.tsx
+    ├── tsconfig.json
+    └── tsconfig.spec.json
 ```
 
 </details>
@@ -223,12 +119,6 @@ This template features all the latest tools and web development best practices. 
 ✅ : Implemented <br/>
 ⌛ : In progress <br/>
 ⏰ : Thinking <br/>
-
-#### 📘 Package Manager
-
-| Name                     | Description                                | status |
-| ------------------------ | ------------------------------------------ | ------ |
-| [pnpm](https://pnpm.io/) | Fast, disk space efficient package manager | ✅     |
 
 #### 🏗️ Build System
 
