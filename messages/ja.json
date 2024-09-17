@@ -1,43 +1,5 @@
 {
   "Index": {
-    "Hello": "こんにちは",
-    "title": "こんにちは世界",
-    "coming soon": "近日公開",
-    "hello world": "こんにちは世界",
-    "change theme": "テーマを変更する",
-    "You're logged in": "ログイン済みです",
-    "logout": "ログアウト"
-  },
-  "Login": {
-    "Welcome back, Login with": "おかえりなさい、ログインしてください",
-    "Google": "グーグル",
-    "Twitter": "ツイッター",
-    "Or continue with email": "またはメールで続行してください",
-    "Email": "Eメール",
-    "Password": "パスワード",
-    "Forgot password": "パスワードをお忘れですか?",
-    "login": "ログイン",
-    "Your password": "あなたのパスワード",
-    "Sign in with Google": "Google でログイン",
-    "Sign in with Twitter": "Twitter でログイン",
-    "Sign in with Github": "Github でログイン",
-    "Welcome_back": "おかえりなさい、RTW next skeleton へ! 下の詳細を入力してログインしてください。"
-  },
-  "NotFoundPage": {
-    "title": "ページが見つかりません",
-    "description": "ブラウザのアドレス バーを再確認するか、ナビゲーションを使用して既知のページに移動してください。"
-  },
-  "Error": {
-    "title": "何か問題が発生しました!",
-    "description": "<p>残念ながらエラーが発生しました</p><p>試してみることができます <retry>ページをリロードする</retry> あなたは訪問していました.</p>"
-  },
-  "LocaleSwitcher-d": {
-    "label": "言語を変えてください",
-    "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
-  },
-  "LocaleSwitcher": {
-    "ja": "Japanese",
-    "en": "English",
-    "label": "言語を変えてください"
+    "Hello": "こんにちは"
   }
 }

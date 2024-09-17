@@ -3,15 +3,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "apps:base-app": "nx run base-app:dev",
-    "apps:base-app-build-dev": "nx run base-app:build:development ",
-    "apps:base-app-build": "nx run base-app:build:production",
-    "apps:base-app-typecheck": "nx affected --target=typecheck",
-    "apps:base-app-cypress-w": "nx run base-app-e2e:e2e --watch",
-    "apps:base-app-cypress": "nx run base-app-e2e:e2e",
-    "apps:base-app-test": "nx run base-app:test",
-    "apps:base-app-test-w": "nx run base-app:test --watch=true",
-    "apps:base-app-test-coverage": "nx run base-app:test --codeCoverage=true",
+    "bootstrap": "yarn install",
+    "apps:owner": "nx run owner:dev",
+    "apps:build:owner": "nx run owner:build:production",
+    "apps:typecheck:owner": "nx affected --target=typecheck",
+    "apps:consumer": "nx run consumer:dev",
+    "apps:build:consumer": "nx run consumer:build:production",
+    "apps:typecheck:consumer": "nx affected --target=typecheck",
     "prepare": "husky install"
   },
   "private": true,
@@ -25,11 +23,8 @@
     "@tabler/icons-react": "^2.40.0",
     "@tanstack/react-query": "^4.36.1",
     "@tanstack/react-query-devtools": "^4.36.1",
-    "@tanstack/react-table": "^8.10.7",
-    "@tiptap/extension-link": "^2.1.12",
-    "@tiptap/react": "^2.1.12",
-    "@tiptap/starter-kit": "^2.1.12",
     "antd": "^5.20.3",
+    "axios": "^1.7.7",
     "dayjs": "^1.11.10",
     "firebase": "^10.12.3",
     "next": "14.2.3",
@@ -98,7 +93,7 @@
     "validate-branch-name": "^1.3.0"
   },
   "validate-branch-name": {
-    "pattern": "^(master|main|develop){1}$|^(EAS-d*).+",
+    "pattern": ".*",
     "errorMsg": "Invalid branch name"
   },
   "engines": {
